@@ -65,7 +65,7 @@ class Game02 extends React.Component {
       e.preventDefault();
       var select1 = document.querySelector('select');
       console.log(select1.value, 'raz');
-      if ((this.state.imageClasses === 'imageToCheck backImg1') && (this.state.title === 'Leaning Tower of Pisa') ) {
+      if ((this.state.imageClasses === 'imageToCheck backImg1') && (this.state.title === 'Image 01') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -73,7 +73,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg2') && (this.state.title === 'Casa Mila') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg2') && (this.state.title === 'Image 02') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -81,7 +81,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg3') && (this.state.title === 'Sydney Opera House') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg3') && (this.state.title === 'Image 03') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -89,7 +89,7 @@ class Game02 extends React.Component {
           });
           select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg4') && (this.state.title === 'Colosseum') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg4') && (this.state.title === 'Image 04') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -97,7 +97,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg5') && (this.state.title === 'Fallingwater') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg5') && (this.state.title === 'Image 05') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -105,7 +105,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg6') && (this.state.title === 'Villa Savoye') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg6') && (this.state.title === 'Image 06') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -113,7 +113,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg7') && (this.state.title === 'Eiffel Tower') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg7') && (this.state.title === 'Image 07') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -121,7 +121,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg8') && (this.state.title === 'Notre Dame du Haut') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg8') && (this.state.title === 'Image 08') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -129,7 +129,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg9') && (this.state.title === 'Chrysler Building') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg9') && (this.state.title === 'Image 09') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -137,7 +137,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg10') && (this.state.title === 'Notre-Dame Cathedral') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg10') && (this.state.title === 'Image 10') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -145,7 +145,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg11') && (this.state.title === 'Parthenon') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg11') && (this.state.title === 'Image 11') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -153,7 +153,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg12') && (this.state.title === 'City of Arts and Sciences') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg12') && (this.state.title === 'Image 12') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -161,7 +161,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg13') && (this.state.title === 'Guggenheim Museum Bilbao') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg13') && (this.state.title === 'Image 13') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -169,7 +169,7 @@ class Game02 extends React.Component {
         });
         select1.value = '';
       }
-      else if ((this.state.imageClasses === 'imageToCheck backImg14') && (this.state.title === 'Palace of Culture and Science') ) {
+      else if ((this.state.imageClasses === 'imageToCheck backImg14') && (this.state.title === 'Image 14') ) {
         this.setState({
           changeImg: this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + this.state.arr1[this.state.changeImg],
@@ -228,21 +228,21 @@ class Game02 extends React.Component {
            <div className={this.state.imageClasses}>
            </div>
            <select className='checkInput' value={this.state.title} onChange={this.handleTitleChange}>
-              <option value="Leaning Tower of Pisa"></option>
-              <option value="Leaning Tower of Pisa">Leaning Tower of Pisa</option>
-              <option value="Casa Milà">Casa Milà</option>
-              <option value="Sydney Opera House">Sydney Opera House</option>
-              <option value="Colosseum">Colosseum</option>
-              <option value="Fallingwater">Fallingwater</option>
-              <option value="Villa Savoye">Villa Savoye</option>
-              <option value="Eiffel Tower">Eiffel Tower</option>
-              <option value="Notre Dame du Haut">Notre Dame du Haut</option>
-              <option value="Chrysler Building">Chrysler Building</option>
-              <option value="Notre-Dame Cathedral">Notre-Dame Cathedral</option>
-              <option value="Parthenon">Parthenon</option>
-              <option value="City of Arts and Sciences">City of Arts and Sciences</option>
-              <option value="Palace of Culture and Science">Palace of Culture and Science</option>
-              <option value="Sydney Opera House">Sydney Opera House</option>
+              <option value=" "></option>
+              <option value="Image 01">Image 01</option>
+              <option value="Image 02">Image 02</option>
+              <option value="Image 03">Image 03</option>
+              <option value="Image 04">Image 04</option>
+              <option value="Image 05">Image 05</option>
+              <option value="Image 06">Image 06</option>
+              <option value="Image 07">Image 07</option>
+              <option value="Image 08">Image 08</option>
+              <option value="Image 09">Image 09</option>
+              <option value="Image 10">Image 10</option>
+              <option value="Image 11">Image 11</option>
+              <option value="Image 12">Image 12</option>
+              <option value="Image 13">Image 13</option>
+              <option value="Image 14">Image 14</option>
           </select>
            <button className='checkBtn' onClick={e => this.checkImg(e)}>
              Check it!

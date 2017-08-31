@@ -10428,98 +10428,98 @@ var Game02 = function (_React$Component) {
       e.preventDefault();
       var select1 = document.querySelector('select');
       console.log(select1.value, 'raz');
-      if (_this.state.imageClasses === 'imageToCheck backImg1' && _this.state.title === 'Leaning Tower of Pisa') {
+      if (_this.state.imageClasses === 'imageToCheck backImg1' && _this.state.title === 'Image 01') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg2' && _this.state.title === 'Casa Mila') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg2' && _this.state.title === 'Image 02') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg3' && _this.state.title === 'Sydney Opera House') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg3' && _this.state.title === 'Image 03') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg4' && _this.state.title === 'Colosseum') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg4' && _this.state.title === 'Image 04') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg5' && _this.state.title === 'Fallingwater') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg5' && _this.state.title === 'Image 05') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg6' && _this.state.title === 'Villa Savoye') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg6' && _this.state.title === 'Image 06') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg7' && _this.state.title === 'Eiffel Tower') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg7' && _this.state.title === 'Image 07') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg8' && _this.state.title === 'Notre Dame du Haut') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg8' && _this.state.title === 'Image 08') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg9' && _this.state.title === 'Chrysler Building') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg9' && _this.state.title === 'Image 09') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg10' && _this.state.title === 'Notre-Dame Cathedral') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg10' && _this.state.title === 'Image 10') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg11' && _this.state.title === 'Parthenon') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg11' && _this.state.title === 'Image 11') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg12' && _this.state.title === 'City of Arts and Sciences') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg12' && _this.state.title === 'Image 12') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg13' && _this.state.title === 'Guggenheim Museum Bilbao') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg13' && _this.state.title === 'Image 13') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
           info: false
         });
         select1.value = '';
-      } else if (_this.state.imageClasses === 'imageToCheck backImg14' && _this.state.title === 'Palace of Culture and Science') {
+      } else if (_this.state.imageClasses === 'imageToCheck backImg14' && _this.state.title === 'Image 14') {
         _this.setState({
           changeImg: _this.state.changeImg + 1,
           imageClasses: 'imageToCheck backImg' + _this.state.arr1[_this.state.changeImg],
@@ -10632,76 +10632,76 @@ var Game02 = function (_React$Component) {
           _react2.default.createElement(
             'select',
             { className: 'checkInput', value: this.state.title, onChange: this.handleTitleChange },
-            _react2.default.createElement('option', { value: 'Leaning Tower of Pisa' }),
+            _react2.default.createElement('option', { value: ' ' }),
             _react2.default.createElement(
               'option',
-              { value: 'Leaning Tower of Pisa' },
-              'Leaning Tower of Pisa'
+              { value: 'Image 01' },
+              'Image 01'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Casa Mil\xE0' },
-              'Casa Mil\xE0'
+              { value: 'Image 02' },
+              'Image 02'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Sydney Opera House' },
-              'Sydney Opera House'
+              { value: 'Image 03' },
+              'Image 03'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Colosseum' },
-              'Colosseum'
+              { value: 'Image 04' },
+              'Image 04'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Fallingwater' },
-              'Fallingwater'
+              { value: 'Image 05' },
+              'Image 05'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Villa Savoye' },
-              'Villa Savoye'
+              { value: 'Image 06' },
+              'Image 06'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Eiffel Tower' },
-              'Eiffel Tower'
+              { value: 'Image 07' },
+              'Image 07'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Notre Dame du Haut' },
-              'Notre Dame du Haut'
+              { value: 'Image 08' },
+              'Image 08'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Chrysler Building' },
-              'Chrysler Building'
+              { value: 'Image 09' },
+              'Image 09'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Notre-Dame Cathedral' },
-              'Notre-Dame Cathedral'
+              { value: 'Image 10' },
+              'Image 10'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Parthenon' },
-              'Parthenon'
+              { value: 'Image 11' },
+              'Image 11'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'City of Arts and Sciences' },
-              'City of Arts and Sciences'
+              { value: 'Image 12' },
+              'Image 12'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Palace of Culture and Science' },
-              'Palace of Culture and Science'
+              { value: 'Image 13' },
+              'Image 13'
             ),
             _react2.default.createElement(
               'option',
-              { value: 'Sydney Opera House' },
-              'Sydney Opera House'
+              { value: 'Image 14' },
+              'Image 14'
             )
           ),
           _react2.default.createElement(
